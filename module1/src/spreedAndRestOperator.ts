@@ -14,9 +14,8 @@ const friendList3 = friendList1.push(...friendList2);
 
 // typeScript in rest operator
 const friends = (...friends: string[]): string[] => {
-    return friends.forEach(element => {
-        
-    });
+
+    return friends
 }
 
 
